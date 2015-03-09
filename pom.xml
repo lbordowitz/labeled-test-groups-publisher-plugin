@@ -38,7 +38,7 @@ THE SOFTWARE.
     <packaging>hpi</packaging>
     <name>Labeled Test Groups Publisher</name>
     <description>Hudson plugin that allows arbitrary test formats grouped by type</description>
-    <url>http://wiki.hudson-ci.org/display/HUDSON/LabeledTestGroupsPublisher+Plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/LabeledTestGroupsPublisher+Plugin</url>
 
     <organization>
         <name>Yahoo!, Inc.</name>
@@ -69,28 +69,20 @@ THE SOFTWARE.
         </dependency>
     </dependencies>
 
-    <scm>
-        <connection>scm:svn:https://guest@hudson.dev.java.net/svn/hudson/trunk/hudson/plugins/labeled-test-groups-publisher/</connection>
-        <developerConnection>scm:svn:https://hudson.dev.java.net/svn/hudson/trunk/hudson/plugins/labeled-test-groups-publisher/</developerConnection>
-        <url>http://fisheye4.atlassian.com/browse/hudson/trunk/hudson/plugins/labeled-test-groups-publisher/</url>
-    </scm>
+    <developers>
+     <developer>
+      <id>lbordowitz</id>
+      <name>Larry Bordowitz</name>
+      <email>laurence.bordowitz@yahoo.com</email>
+      <timezone>America/Los_Angeles</timezone>
+     </developer>
+    </developers>
 
-    <mailingLists>
-        <mailingList>
-            <name>dev</name>
-            <subscribe>https://hudson.dev.java.net/servlets/ProjectMailingListList</subscribe>
-            <unsubscribe>https://hudson.dev.java.net/servlets/ProjectMailingListList</unsubscribe>
-            <post>mailto:dev@hudson.dev.java.net</post>
-            <archive>https://hudson.dev.java.net/servlets/SummarizeList?listName=dev</archive>
-        </mailingList>
-        <mailingList>
-            <name>users</name>
-            <subscribe>https://hudson.dev.java.net/servlets/ProjectMailingListList</subscribe>
-            <unsubscribe>https://hudson.dev.java.net/servlets/ProjectMailingListList</unsubscribe>
-            <post>mailto:users@hudson.dev.java.net</post>
-            <archive>https://hudson.dev.java.net/servlets/SummarizeList?listName=users</archive>
-        </mailingList>
-    </mailingLists>
+    <scm>
+        <connection>scm:git:ssh://github.com/jenkinsci/labeled-test-groups-publisher-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/labeled-test-groups-publisher-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/labeled-test-groups-publisher-plugin</url>
+    </scm>
 
     <build>
         <plugins>
